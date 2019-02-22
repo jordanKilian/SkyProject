@@ -1,0 +1,18 @@
+/* ALIGN ICONS TO LEFT */
+
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* POSITION ICONS */
+
+#what .items .item i {
+  margin-right: 1.3rem;
+  margin-bottom: 0;
+  align-self: center;
+}
+
+#contact .map {
+  flex: 2
+}

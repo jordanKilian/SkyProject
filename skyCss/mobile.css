@@ -1,0 +1,110 @@
+/* TABLEST */
+
+/* EXPAND CONTAINER */
+.container {
+  max-width: 95%;
+}
+
+/* STACK WHAT SECTION ITEMS */
+
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* ALIGN ICONS TO LEFT */
+
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* POSITION ICONS */
+
+#what .items .item i {
+  margin-right: 1.3rem;
+  margin-bottom: 0;
+  align-self: center;
+}
+
+/* SMARTPHONES */
+
+@media (max-width: 500px) {
+  #navBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navBar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navBar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcaseContent {
+    top: 111px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .whoImg {
+    display: none;
+  }
+
+  #client .items img {
+    width: 80%;
+  }
+
+  #client .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 230px;
+    border-top: 2px solid #333;
+  }
+}
+
+/* CUSTOMER SECTION */
+@media (max-width: 900px) {
+  #client .items {
+    flex-direction: column;
+  }
+
+  #client .items p,
+  #client .items img {
+    width: 100%;
+  }
+
+  #client .items img {
+    order: 0;
+  }
+
+  #client .items p {
+    order: 1;
+  }
+}
+
+@media(max-height: 568px) {
+  #showcase .showcaseContent {
+    top: 140px;
+    margin-top: -2rem;
+  }
+
+  .lgHeading: {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
